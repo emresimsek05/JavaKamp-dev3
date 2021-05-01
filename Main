@@ -1,0 +1,39 @@
+package JavaKampÖdev;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Student student1 = new Student();
+		student1.setId(1);
+		student1.setUserFirstName("emre");
+		student1.setUserLastName("simsek");
+		student1.setEmail("emresimsek19@gmail.com");
+		student1.setPassword("899323");
+		student1.setCourse("JAVA");
+		
+		
+		Instructor instructor1 = new Instructor();
+		instructor1.setId(1);
+		instructor1.setUserFirstName("Engin");
+		instructor1.setUserLastName("Demirog");
+		instructor1.setEmail("engndmrg@gmail.com");
+		instructor1.setPassword("12345");
+		instructor1.setSertificate("EDUCATOR");
+		
+		
+		UserManager userManager1 = new UserManager();
+		userManager1.addNewUser(student1);
+		userManager1.deleteUser(student1);
+		
+		
+		InstructorManager instructorManager = new InstructorManager();
+		instructorManager.addCategory(instructor1);
+		
+		
+		StudentManager studentManager = new StudentManager();
+		studentManager.addJavaCampHomework(student1);
+	
+    }	
+	
+}

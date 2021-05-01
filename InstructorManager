@@ -1,0 +1,11 @@
+package JavaKampÖdev;
+
+public class InstructorManager extends UserManager{
+	 	
+	 	public void addCategory (Instructor instructor) {
+	 		
+	 		System.out.println("Add Category");
+	 		
+	 }
+	 	
+}

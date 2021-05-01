@@ -1,0 +1,23 @@
+package JavaKampÖdev;
+
+public class Instructor extends User {
+	
+		private String sertificate;
+		
+		public Instructor() {}
+			
+			public Instructor(int id, String UserFirstName, String UserLastName, String Email, String password) {
+				
+				this.sertificate = sertificate;
+			}
+		
+
+		public String getSertificate() {
+			return sertificate;
+		}
+
+		public void setSertificate(String sertificate) {
+			this.sertificate = sertificate;
+		}
+
+}

@@ -1,0 +1,10 @@
+package JavaKampÖdev;
+
+public class StudentManager {
+	
+		public void addJavaCampHomework (Student student) {
+			
+			System.out.println("Add Java Camp Homework");
+		}
+
+}

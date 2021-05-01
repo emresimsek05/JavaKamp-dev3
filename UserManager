@@ -1,0 +1,14 @@
+package JavaKampÖdev;
+
+public class UserManager {
+	
+	public void addNewUser (User user) {
+		 	
+			System.out.println("Add New User");
+	}
+	
+	public void deleteUser (User user) {
+			
+			System.out.println("Delete User");
+	}
+}
